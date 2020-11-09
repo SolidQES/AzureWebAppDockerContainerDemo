@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crystalreport", "crystalreport\crystalreport.csproj", "{AF3165CF-6857-4049-8984-58EDC6546282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devops", "devops", "{76E93568-81D6-45B5-9A23-AC25EE12D007}"
+	ProjectSection(SolutionItems) = preProject
+		devops\CreateAndDeployWebAppContainer.ps1 = devops\CreateAndDeployWebAppContainer.ps1
+		devops\createParameters.ps1 = devops\createParameters.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "crystalreportwebapp", "crystalreportwebapp", "{3C2F4631-DAD7-4583-B21B-46BC91D1DF19}"
+	ProjectSection(SolutionItems) = preProject
+		devops\crystalreportwebapp\parameters.json = devops\crystalreportwebapp\parameters.json
+		devops\crystalreportwebapp\template.json = devops\crystalreportwebapp\template.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF3165CF-6857-4049-8984-58EDC6546282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3165CF-6857-4049-8984-58EDC6546282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3165CF-6857-4049-8984-58EDC6546282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3165CF-6857-4049-8984-58EDC6546282}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C2F4631-DAD7-4583-B21B-46BC91D1DF19} = {76E93568-81D6-45B5-9A23-AC25EE12D007}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F94F66E-1D13-4274-AFCD-5E82C5F73F63}
+	EndGlobalSection
+EndGlobal
